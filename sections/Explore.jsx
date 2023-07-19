@@ -23,8 +23,10 @@ const Explore = () => {
         <TypingText title="| O mundo" textStyles="text-center" />
         <TitleText
           title={<> Escolha o mundo que você quer
-            explorar <br className="md:block hidden" />
-          </>}
+            explorar
+            <br className="md:block hidden" />
+          </>
+          }
           textStyles="text-center"
         />
         <div className="mt-[50px] flex lg:flex-row flex-col min-h-[70vh] gap-5">
